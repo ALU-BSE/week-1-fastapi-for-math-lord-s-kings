@@ -74,7 +74,7 @@ def test_sigmoid_function():
     result = f(x)
     assert np.allclose(result, expected), "Sigmoid function failed."
 
-# Test FastAPI endpoint functionality
+# Test FastAPI endpoint functionalit
 
 def test_endpoint():
     response = client.post("/endpoint", json={"data": [[1, 2], [3, 4]]})
